@@ -7,7 +7,7 @@ print("ПРОСТЕЙШИЙ ТЕСТ MYMATHLIB.DLL")
 print("="*60)
 
 # Загружаем DLL
-dll_path = r"C:\cpp\check_dll\bin\mymathlib.dll"
+dll_path = r".\mymathlib.dll"
 if not os.path.exists(dll_path):
     print(f"✗ DLL не найдена: {dll_path}")
     exit(1)
